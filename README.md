@@ -32,3 +32,15 @@ Navigate inside the SBS webpage to find the Financial statements of the commerci
 browser.get(url1)
  ```
  
+ ## Extraction of urls
+ 
+ With the **Data_mining_SB.py** and the url of the previous step, you can run the python code to click on buttons and the find elements by an identificator. I used the library Selenium to click on some buttons to display the xls files I wanted to dowload. 
+ * Click on __Estados Financieros por Empresa Bancaria__
+   * Click on __Balance General y Estado de Ganancias y Pérdidas__
+     * Click on arrow next to __Años anteriores__
+ 
+Every element I had to click on have various way to be identified, one of the most reliables is the XPATH. Sometimes is more efficient to find the element by the TAG_NAME... it really depends on the html elements of the webpage.
+
+I localized the XPATH of the elements I wanted to click and used them as an input for my code. Finally searched for all the elements that had as TAG_NAME "a" becuase they are followed by the urls of the xls files I wanted to download. 
+
+ 
