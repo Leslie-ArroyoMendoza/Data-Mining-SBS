@@ -30,7 +30,7 @@ browser.implicitly_wait(30)
 ##############################################################
 # 1. Click on menu
 # 2. Click on submenu
-# 3. 
+# 3. Click on arrow
 
 step1="/html/body/form/table[3]/tbody/tr/td/table/tbody/tr/td[1]/div/div/div/div/div[8]/div/a"
 step2="/html/body/form/table[3]/tbody/tr/td/table/tbody/tr/td[1]/div/div/div/div/div[9]/div/div/a"
